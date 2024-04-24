@@ -1,4 +1,6 @@
 package org.game.gui;
 
-public class GameplayPanel {
+import javax.swing.*;
+
+public class GameplayPanel extends JPanel {
 }

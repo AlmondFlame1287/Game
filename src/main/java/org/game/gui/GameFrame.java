@@ -9,6 +9,8 @@ public class GameFrame extends JFrame {
 
     private void initBasics() {
         this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        this.setContentPane(ContentPanel.getPanel());
+        this.setSize(800, 600);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
